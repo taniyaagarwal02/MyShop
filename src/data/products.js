@@ -25,7 +25,7 @@ const products = [
     image:
       "https://images.unsplash.com/photo-1537465978529-d23b17165b3b?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8ZGVuaW0lMjBqYWNrZXR8ZW58MHx8MHx8fDA%3D",
     description: "Stylish denim jacket.",
-    category: "apparel",
+    category: "fashion",
   },
   {
     id: "p4",
@@ -70,7 +70,7 @@ const products = [
     image:
       "https://www.technosport.in/cdn/shop/files/OR81IronGrey_1.jpg?v=1738839831&width=1946",
     description: "Soft cotton unisex t-shirt available in multiple colors.",
-    category: "apparel",
+    category: "fashion",
   },
   {
     id: "p9",
@@ -110,7 +110,7 @@ const products = [
   },
 
   {
-    id: 13,
+    id: "p13",
     title: "Fitness Tracker",
     price: 1599,
     image:
@@ -119,7 +119,7 @@ const products = [
     category: "electronics",
   },
   {
-    id: 14,
+    id: "p14",
     title: "Travel Mug",
     price: 499,
     image:
@@ -128,7 +128,7 @@ const products = [
     category: "accessories",
   },
   {
-    id: 15,
+    id: "p15",
     title: "Portable Charger",
     price: 1299,
     image:
@@ -137,7 +137,7 @@ const products = [
     category: "electronics",
   },
   {
-    id: 16,
+    id: "p16",
     title: "Graphic Hoodie",
     price: 1799,
     image:
@@ -146,7 +146,7 @@ const products = [
     category: "fashion",
   },
   {
-    id: 17,
+    id: "p17",
     title: "Digital Camera",
     price: 4999,
     image:
@@ -155,20 +155,94 @@ const products = [
     category: "electronics",
   },
   {
-    id: 18,
+    id: "P18",
     title: "Ankle Boots",
     price: 3299,
-    image: "",
+    image:
+      "https://static.vecteezy.com/system/resources/thumbnails/069/777/170/small/brown-suede-ankle-boots-with-zipper-and-wooden-heel-resting-on-white-surface-photo.jpg",
     description: "Stylish ankle boots for all seasons.",
     category: "footwear",
   },
   {
-    id: 19,
+    id: "p19",
     title: "Beanie Hat",
     price: 399,
-    image: "",
+    image:
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTD0KnW8jgURAUaJCx_FS7z0MKx9AvOX6s1YQ&s",
     description: "Warm beanie hat for cold weather.",
     category: "accessories",
+  },
+  {
+    id: "p20",
+    title: "Eye Cream",
+    price: 699,
+    image:
+      "https://images-static.nykaa.com/media/catalog/product/e/2/e2449ddDOTKE00000278_10.jpg?tr=w-500",
+    description: "Reduce dark circles and puffiness with this eye cream.",
+    category: "beauty",
+  },
+
+  {
+    id: "p21",
+    title: "Lipstick ",
+    price: 499,
+    image:
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQYXivxjggw7lBaUsZorhqo_jac4XqfIah7Dw&s",
+    description: "Long-lasting matte lipstick in vibrant colors.",
+    category: "beauty",
+  },
+  {
+    id: "p22",
+    title: "Foundation",
+    price: 899,
+    image:
+      "https://marscosmetics.in/cdn/shop/files/WEBSITEcopy.jpg2_1_8b29a084-be62-49dc-9569-3273a5606b2f.jpg?v=1740828794&width=2000",
+    description: "Lightweight foundation for a flawless finish.",
+    category: "beauty",
+  },
+  {
+    id: "p23",
+    title: "Makeup Brush Set",
+    price: 1299,
+    image:
+      "https://rukminim2.flixcart.com/image/480/640/xif0q/brush-applicator/d/n/p/makeup-brushes-8-pieces-makeup-brush-set-cosmetics-professional-original-imagpekzzeeqzyjy.jpeg?q=90",
+    description: "Complete set of brushes for all your makeup needs.",
+    category: "beauty",
+  },
+  {
+    id: "p24",
+    title: "Harry Potter and the Philosopher's Stone by J. K. Rowling",
+    price: 399,
+    image: "https://m.media-amazon.com/images/I/81q77Q39nEL.jpg",
+    description: "The first book in the Harry Potter series.",
+    category: "books",
+  },
+  {
+    id: "p25",
+    title: "The Great Gatsby by F. Scott Fitzgerald",
+    price: 299,
+    image:
+      "https://www.gutenberg.org/cache/epub/64317/pg64317.cover.medium.jpg",
+    description: "A classic novel set in the Jazz Age.",
+    category: "books",
+  },
+  {
+    id: "p26",
+    title: "concealer",
+    price: 899,
+    image:
+      "https://images-static.nykaa.com/media/catalog/product/1/e/1ed1210NYSWISSB00316_x2.jpg?tr=w-500",
+    description: "Lightweight concealer for a flawless finish.",
+    category: "beauty",
+  },
+  {
+    id: "p27",
+    title: "Fashionable Scarf",
+    price: 599,
+    image:
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTxMEaYcNeFhEecutlA1obHAnO_eb82alcpUw&s",
+    description: "Stylish scarf to complement any outfit.",
+    category: "fashion",
   },
 ];
 
